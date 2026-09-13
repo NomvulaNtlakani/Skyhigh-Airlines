@@ -1,0 +1,115 @@
+#Container{
+background: linear-gradient(to right, navy,skyblue);
+display: grid;
+max-width: 900px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(4,minmax(150px,auto));
+border: 2px solid white;  /* temp   */
+color: white;
+ 
+}
+
+h3{
+    color: navy;
+}
+.head{
+grid-column: 1/2 ;
+grid-row: 1/2 ;
+color: white;
+padding: 20px;
+margin: auto;
+}
+
+.nav
+{
+grid-column: 3/4 ;
+grid-row: 1/2;
+padding: 10px;
+margin: auto;
+}
+ nav a{
+margin: auto;
+padding: 10px;
+color: white;
+ }
+nav a:hover{
+    background-size: large;
+    background-color:skyblue;
+    color: white;
+}
+
+.about
+{
+grid-column: 1/2;
+grid-row: 2/3;
+border: 1px solid black;
+border: 10px;
+padding: 15px;
+margin: auto;
+color: blue;
+background-color: whitesmoke;
+border-radius: 8px;
+
+
+}
+
+.flight
+{
+border: 1px solid black;
+background-image:(url(images/pattern.jpeg));
+grid-column: 2/4;
+grid-row: 2/3;
+border-radius: 8px;
+padding: 15px;
+margin: auto;
+width: 500px;
+}
+hr{
+    color: white;
+}
+
+.table, tr, td,th{
+    border-collapse: collapse;
+    border: 2px solid black;
+    
+}
+
+.destination
+{
+grid-column: 1/3;
+grid-row: 3/4 ;
+color: blue;
+background-color: whitesmoke;
+border-radius: 8px;
+padding: 15px;
+margin: 20px 10px 10px 10px;
+}
+.destination img{
+width: 250px;
+border-radius: 10px;
+
+
+
+}
+
+.customer
+{
+grid-column: 3/4 ;
+grid-row: 3/4;
+background-color: whitesmoke;
+border-radius: 8px;
+color: black;
+margin: 20px 10px 10px 10px;
+padding: 8px;
+
+
+}
+
+.footer
+{
+grid-column: 1/4 ;
+grid-row: 4/4;
+text-align: center;
+
+}
+
